@@ -1,0 +1,104 @@
+JAVA FOR DUMMIES BOOK(short notes for each chapter)
+---------------------------------------------------------------------------------------------
+CHAPTER 1: What Is Java, and Why Is It So Great?
+
+~ Java is a programming language in the tradition of C and C++. As a result, if you
+have any experience with C or C++, you’ll often find yourself in familiar territory
+as you discover the various features of Java.
+
+
+Java differs from other programming languages in a couple of significant ways,
+however. In this section we point out the most important differences:
+
+# PLATFORM INDEPENDENCE: meaning that Java programs can run on many types of computers.
+
+>>> A Java program runs on any computer with a Java Runtime Environment, also known as a
+JRE, installed.
+
+>>>Java’s platform independence isn’t based on providing compatible compilers for
+different platforms. Instead, Java is based on the concept of a virtual machine. You
+can think of the Java Virtual Machine (sometimes called the JVM) as being a hypothetical
+computer platform — a design for a computer that doesn’t exist as actual
+hardware.
+
+>>>Instead, the JRE is an emulator — a program that sets aside part of
+your hard drive to act like a computer (namely, the JVM) that can execute Java
+programs.
+
+>>>The Java compiler doesn’t translate Java into the machine language of the computer
+that the program is running on. Instead, the compiler translates Java into
+the machine language of the JVM, which is called bytecode.
+
+# OBJECT ORIENTATION:
+
+>>>which means that Java programs are made up
+from programming elements called objects.
+
+>>>an object is a programming entity that represents
+either some real-world object or an abstract concept.
+
+>>>Objects have data, also known as state. An object that represents a book, for
+example, has data such as the book’s title, author, and publisher.
+
+>>>Object perform certain tasks called methods, e.g An object that represents a car might
+have methods such as start, stop, drive, and crash.
+
+>>>Classes are closely related to objects. A class is the program code you write to create
+objects.
+
+>>>The class describes the data and methods that define the object’s state
+and behavior. When the program executes, classes are used to create objects.
+
+# THE Java API :
+
+>>>Java comes with a library of classes
+that provide commonly used utility functions that most Java programs can’t do
+without. This class library, called the Java API (short for application programming
+interface), is as much a part of Java as the language itself.
+
+>>>The Java API has classes that let you do trigonometry, write data to files, create
+windows onscreen, and retrieve information from a database, among other
+things.
+
+# THE INTERNET :
+
+>>>The whole concept behind the JVM is to enable any
+computer connected to the Internet to run Java programs, regardless of the type
+of computer or the operating system it runs.
+
+-----------------------------------------------------------------------
+IMPORTANT FEATURES OF THE JAVA LANGUAGE
+-----------------------------------------------------------------------
+
+# TYPE CHECKING 
+
+>>>In Java, every class you define creates a new type of data for the language to work
+with. Thus, the data types you have available to you in Java aren’t just simple
+predefined types, such as numbers and strings. You can create your own types.
+
+# AUTOMATIC MEMORY MANAGEMENT
+
+>>>In Java, you don’t have to explicitly release memory when you’re done with it;
+instead, memory is freed automatically when it’s no longer needed. The JVM
+includes a special process called the garbage collector that snoops around the virtual
+machine’s memory; determines when data is no longer being used; and automatically
+deletes that data, freeing the memory that it occupied.
+
+# EXCEPTION HANDLING
+
+>>>Java has a unique approach to error handling that’s superior to that of any other
+language.
+
+>>>In Java, the JRE intercepts and folds errors of all types into a special type
+of object called an exception object. 
+
+
+
+
+
+
+
+
+
+
+
