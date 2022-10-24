@@ -1,0 +1,94 @@
+===================================================================================================
+CHAPTER 1: JAVA PROGRAMMING BASICS
+=======================================================================================================
+Firstly, we begin with a simple example program that displays the text "Hello, World!" on the
+console.
+----------------------------------------------------------------------------------
+Example:
+ 
+public class HelloApp 
+{ 
+    public static void main(String[] args) 
+  { 
+      System.out.println("Hello, World!"); 
+  } 
+
+}
+---------------------------------------------------------------------------------
+#Discovering all the elements that make up this program
+
+*public: A keyword of the Java language that indicates that the element
+         that follows should be made available to other Java elements.
+
+*class: Another Java keyword that indicates that the element being
+        defined here is a class.All Java programs are made up of one or more
+        classes.
+
+*HelloApp: An identifier that provides the name for the class being defined
+           here. Whereas keywords, such as public and class, are words that are
+           defined by the Java programming language, identifiers are words that you
+           create to provide names for various elements you use in your program.
+
+*public: The public keyword is used again, this time to indicate that a
+         method being declared here should have public access.
+
+*static: The Java language requires that you specify
+         static when you declare the main method.
+
+*void: In Java, a method is a unit of code that can calculate and return a
+       value.you must use the void keyword to indicate
+       that no value is returned. Because Java requires that the main method not
+       return a value, you must specify void when you declare the main method.
+
+*main: Finally, here’s the identifier that provides the name for this method.
+       As I’ve already mentioned, Java requires that this method be named main.
+
+*(String[] args): It’s called a parameter list, and it’s used to pass data
+                  to a method. Java requires that the main method must receive a single
+                  parameter that’s an array of String objects.
+
+*System.out.println("Hello, World!");: This is the only statement in
+                                       the entire program. It calls a method named println that belongs to the
+                                       System.out object. The println method displays a line of text on the
+                                       console.
+
+
+Example 2: Compiling this java program
+
+You can compile it by running the following command at a command
+prompt:
+------------------------------------------------------------------------------------
+javac HelloApp.java
+------------------------------------------------------------------------------------
+
+This command creates a class file named HelloApp.class that contains the Java
+bytecodes compiled for the HelloApp class.
+
+You can run the program by entering this command:
+--------------------------------------------------------------------------------------
+java HelloApp
+---------------------------------------------------------------------------------------
+
+Now you’re in a better position to understand exactly what this command does. First, it loads the Java
+Virtual Machine (JVM) into memory. Then it locates the HelloApp class, which
+must be contained in a file named HelloApp.class. Finally, it runs the main
+method of the HelloApp class. The main method, in turn, displays the message
+"Hello, World!" on the console.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
