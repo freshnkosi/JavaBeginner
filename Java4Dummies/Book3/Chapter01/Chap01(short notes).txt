@@ -1,0 +1,118 @@
+What Is Object-Oriented Programming?
+
+~ Object-oriented programming is a type of computer programming based on the premise
+  that all programs are essentially computer-based simulations of
+  real-world objects or abstract concepts.
+==========================================================================================
+UNDERSTANDING OBJECTS:
+==========================================================================================
+The following sections describe some of the most
+important of these characteristics: identity, type, state, and behavior.
+
+*Objects have identity
+======================
+~ Every object in an object-oriented program has an identity. In other words, every
+  occurrence of a particular type of object — called an instance — can be distinguished
+  from every other occurrence of the same type of object, as well as from
+  objects of other types.
+
+*Objects have type
+==================
+~ In Java, types are defined by
+  classes. So when you create an object from a type, you’re saying that the object
+  is of the type specified by the class. The following example statement creates an
+  object of type Invoice:
+
+ Invoice i = new Invoice();
+
+*Objects have state
+===================
+~ The combination of the values for all the attributes of an object is called the object’s
+ state. Unlike its identity, an object’s state can — and usually does — change over its
+ lifetime.
+~ for example. The total sales for a particular
+               customer changes each time the customer buys another product. The grade-point
+               average for a student changes each time a new class grade is recorded
+
+*Objects have behavior
+======================
+~ Another characteristic of objects is that they have behavior, which means that they
+ can do things. Like state, the specific behavior of an object depends on its type. But
+ unlike state, behavior isn’t different for each instance of a type.
+
+~ Another way to say that objects have behavior is to say that they provide services
+  that can be used by other objects.
+
+~In Java, the behavior of an object is provided by its methods. Thus the format
+ method of the NumberFormat class is what provides the formatting behavior for
+ NumberFormat objects.
+
+============================================================================================
+Working with Related Classes
+============================================================================================
+
+So far, most of the classes you’ve seen in this book have created objects that
+stand on their own, each being a little island unto itself. The real power of objectoriented
+programming, however, lies in its ability to create classes that describe
+closely related objects.
+
+Java has two object-oriented programming features that are designed specifically
+to handle classes that are related this way: inheritance and interfaces
+
+*Inheritance
+============
+~ Inheritance is an object-oriented programming technique that lets you use one
+  class as the basis for another. The existing class is called the base class, superclass,
+  or parent class; the new class that’s derived from it is called the derived class, subclass,
+  or child class.
+
+~ One way to think of inheritance is as a way to implement is-a-type-of relationships
+
+*Interfaces
+============
+~ An interface is a set of methods and fields that a class must provide to implement
+  the interface. The interface itself is simply a set of public method and field declarations
+  that are given a name.
+~ Note that the interface itself doesn’t provide any
+  code that implements those methods. Instead, it just provides the declarations.
+
+
+***Interfaces are closely related to inheritance but have two key differences:
+==============================================================================
+
+~ The interface itself doesn’t provide code that implements any of its methods.
+  An interface is just a set of method and field signatures.
+~ A class can have only one base class, but a class can implement as many
+  interfaces as necessary.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
